@@ -1,0 +1,115 @@
+@media screen and (max-width: 320px) {
+
+    body,
+    html {
+        background: red;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+
+
+    .ptitulo {
+        margin-top: -0.5%;
+    }
+
+    .svg {
+        display: none;
+    }
+
+    .img2 {
+        opacity: 0.2;
+        display: none;
+    }
+
+    .Pdigitales {
+        margin-top: -15%;
+    }
+
+    .text-overlay {
+        position: relative;
+        margin-top: -0% !important;
+        left: 0% !important;
+        width: 90%;
+        margin: auto;
+    }
+
+    .container-foo {
+        margin-top: 1%;
+    }
+
+
+
+    p {
+        margin-top: 75px;
+        font-size: 25px;
+    }
+
+    .Container-btn {
+        width: 95%;
+        margin: auto;
+        padding: 5px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #Container-btn {
+        margin-top: -25% !important;
+    }
+
+    h3 {
+        font-size: small;
+    }
+
+    button {
+        font-size: small;
+    }
+
+    .ancho {
+        font-size: small;
+        display: none;
+    }
+
+    .center {
+        width: 100%;
+    }
+
+    .foo {
+        margin-top: -18%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .svg {
+        display: none;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .Pdigitales {
+        margin-top: 2%;
+        background: rgb(231, 0, 76);
+        width: 100%;
+        display: flex;
+    }
+
+    .text-overlay {
+        position: relative;
+        margin-top: -0% !important;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1680px) {
+
+    .img2 {
+        z-index: 8;
+        margin-top: 5% !important;
+        right: 23% !important;
+        position: relative;
+    }
+
+}
+
+@media (min-width: 1681px) {}
